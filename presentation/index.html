@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Your Title</title>
+		<title>The Social Pulse</title>
 
-		<meta name="description" content="Your description">
-		<meta name="author" content="Your Name">
+		<meta name="description" content="Modeling Events In Social Data">
+		<meta name="author" content="Josh Montague">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -16,6 +16,7 @@
 
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -37,10 +38,42 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
                 
-<section>
-    <h1>Your Title</h1>
-    <h3>Your sub-title</h3>
+<section data-markdown>
+<script type="text/template">
+    # Modeling Events In Social Data
+    Josh Montague
+
+    (Data Scientist @ Gnip)
+</script>
 </section>
+<section data-markdown>
+<script type="text/template">
+# Take-aways 
+
+- classes of activities in social data 
+
+- _Social Media Pulse_, network spread 
+
+- can extract useful features from the models
+
+        
+</script>
+</section>
+<section data-markdown>
+<script type="text/template">
+# Social Data 
+
+~ a decade into the _social data revolution_ ([HBR, 2009](http://blogs.hbr.org/2009/05/the-social-data-revolution/)) 
+
+lots of outlets:
+
+- Twitter, Tumblr, Foursquare, Disqus, WordPress, IntenseDebate, GetGlue, StockTwits, Estimize, Newsgator, Facebook, Bitly, del.icio.us, flickr, Google+, Instagram, Metacafe, Panoramio, Photobucket, Plurk, Reddit, StackOverflow, Vimeo, VK, YouTube, ... 
+
+        
+</script>
+</section>
+
+<!--
 <section data-markdown>
     <script type="text/template">
         ## Testing Markdown
@@ -88,6 +121,7 @@
         </script>
     </section>
 </section>
+-->
 
 			</div>
 
@@ -108,6 +142,7 @@
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [

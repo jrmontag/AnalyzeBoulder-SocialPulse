@@ -12,20 +12,25 @@
 
 ---
 
-# outline
+# outline *(WIP)*
 
-*work in progress*
+- ~a decade into the [social data revolution](http://blogs.hbr.org/2009/05/the-social-data-revolution/) = mucho data
 
-benefits of classifying (and forecasting) events on twitter:
+- new channel for making measurements of social and humanitarian issues (unemployment, illness, politics), cheaper and more real-time than e.g. government census 
 
-- identify emerging stories & source type
+- how much data? (+ grapherator twitter data) -- everything from the Golden Globe awards show to the current Ukrainian riots is in that data 
 
-- compare user behavior across platforms 
-        
-- compare evolution of stories with different scales  
+- many reasons why you might want to be able to describe and classify events in that data stream, eg: 
+            
+    - compare evolution of stories with different scales  
+
+    - compare user behavior across platforms  
     
+    - identify emerging stories & source type
 
-## activity classes
+
+
+## event classes
 
 ### expected (+data) 
 
@@ -35,11 +40,12 @@ benefits of classifying (and forecasting) events on twitter:
 
 ### unexpected (+data) 
 
-- *social media pulse* (many simultaneous observations / multiple sources): CA quake ( 2014-01-15 ) 
+- *social media pulse* (many simultaneous observations / multiple sources): CA quake ( 2014-01-15, fontana/LA ) 
     
-- *network spread* (single- or few-source): bin Laden strike (before traditional media), syrian dissidents 
+- *network spread* (single- or few-source): bin Laden strike (before traditional media), syrian dissidents *(newer example* 
     
 - [ *hybrid* : AP hack ( 2013-04-24 ) ]
+
 
 
 ## unexpected event models
