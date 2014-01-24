@@ -14,19 +14,20 @@
 
 # outline *(WIP)*
 
-- ~a decade into the [social data revolution](http://blogs.hbr.org/2009/05/the-social-data-revolution/) = mucho data
+- context (for social data)
 
-- new channel for making measurements of social and humanitarian issues (unemployment, illness, politics), cheaper and more real-time than e.g. government census 
+    - ~a decade into the [social data revolution](http://blogs.hbr.org/2009/05/the-social-data-revolution/) = mucho data
 
-- how much data? (+ grapherator twitter data) -- everything from the Golden Globe awards show to the current Ukrainian riots is in that data 
+    - new channel for making measurements of social and humanitarian issues (unemployment, illness, politics), cheaper and more real-time than e.g. government census 
 
-- many reasons why you might want to be able to describe and classify events in that data stream, eg: 
+    - how much data? (+ grapherator twitter data) -- everything from the Golden Globe awards show to the current Ukrainian riots is in that data 
+
+
+- need a way to describe and classify narrow / focussed events in large data stream, eg: 
             
-    - compare evolution of stories with different scales  
+    - compare evolution of stories with different scales, compare user behavior across platforms, identify emerging stories & source type
 
-    - compare user behavior across platforms  
-    
-    - identify emerging stories & source type
+
 
 
 
