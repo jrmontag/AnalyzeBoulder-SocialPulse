@@ -85,6 +85,8 @@ logisitic/sigmoid function
 
 # to do
 
+- graphic on slide #1 
+
 - cross-social-platform comparison of models
 
 - (non-parametric) trend detection
