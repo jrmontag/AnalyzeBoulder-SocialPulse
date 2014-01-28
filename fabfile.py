@@ -13,4 +13,4 @@ def build():
 
 def publish():
     build()
-    local('ghp-import -p presentation')
+    local('ghp-import -p presentation -m"update slides"')
