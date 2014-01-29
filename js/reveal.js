@@ -86,7 +86,7 @@ var Reveal = (function(){
 			backgroundTransition: 'default', // default/linear
 
 			// Script dependencies to load
-			dependencies: []
+			dependencies: [ ]
 		},
 
 		// The current auto-slide duration

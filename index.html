@@ -6,7 +6,7 @@
 
 		<title>The Social Pulse</title>
 
-		<meta name="description" content="Modeling Events In Social Data">
+		<meta name="description" content="The Social Media Pulse: Modeling Events In Social Data">
 		<meta name="author" content="Josh Montague">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -25,7 +25,7 @@
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
-
+        
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
@@ -111,9 +111,23 @@
     </p>
 
     <br> 
-    <p class="fragment roll-in"> identify and isolate an event </p>
+    <p class="fragment roll-in"> identify and <em>isolate</em> an event </p>
 
 </section>
+<section>
+
+<section data-markdown>
+<script type="text/template">
+
+# Expected 
+
+<br> <br> <br> <br> <br> 
+
+# Unexpected 
+    
+</script>
+</section>
+
 <section data-markdown>
 <script type="text/template">
 
@@ -121,12 +135,67 @@
 
 award show, storm, product announcement 
 
-<br> <br> 
-# Unexpected 
-    
-earthquake, plane crash  
+<br> <br> <br> <br> <br> <br> <br> <br> 
+###### img
 
 </script>
+</section>
+
+<section data-markdown>
+<script type="text/template">
+
+###### img
+<br> <br> <br> <br> <br> <br> <br> <br> 
+
+# Unexpected 
+
+earthquake, celebrity death 
+
+</script>
+</section>
+
+</section>
+<section>
+
+<section data-markdown>
+<script type="text/template">
+
+# Expected 
+
+
+<br> <br> <br> <br> <br> <br> <br> <br> 
+###### img + fit
+
+</script>
+</section>
+
+<section data-markdown>
+<script type="text/template">
+
+###### img + fit
+<br> <br> <br> <br> <br> <br> <br> <br> 
+
+# Unexpected 
+
+
+</script>
+</section>
+
+</section>
+<section> 
+
+<h1> Social Media Pulse </h1> 
+
+<br> <br> 
+
+<h6> img + fit </h6>
+
+counting # of events, exponential probability decay in time: _Poisson process_ 
+
+$$ f(t) = \lambda \exp{-\lambda t} $$
+
+<br> <br> <br> <br> <br> <br> 
+
 </section>
 
 
@@ -151,6 +220,11 @@ earthquake, plane crash
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
+                math: {
+                    mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+                    config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+                },
+
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -158,7 +232,8 @@ earthquake, plane crash
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/math/MathJax.js', async: true }
 					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
 					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
