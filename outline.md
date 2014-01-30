@@ -28,69 +28,48 @@
     - compare evolution of stories with different scales, compare user behavior across platforms, identify emerging stories & source type
 
 
+## expected v. unexpected
+
+- examples 
+
+    - expected: winter storm (Janus: ~2014-01-21) 
+
+    - unexpected: news story (google + nest ~ 2014-01-13?) 
+
+- lines through each 
+
+## *social media pulse* 
+
+- (only slide with formulas!)
+
+- poisson counting process where probability of an observer posting/sharing is exponentially decaying in time (+formula) 
+- many observers ==> sum of independent random variables is the convolution of these ==> gamma
+
+- example + parameters 
+
+- example with data 
 
 
+## event parameters 
 
-## event classes
+- story half-life (+example?)
 
-### expected (+data) 
+- total story volume
 
-- golden globes ( 2014-01-12 ) / SAG ( 2014-01-18 ) 
+- time to peak
 
-- winter storm janus ( 2014-01-21 ) 
-
-### unexpected (+data) 
-
-- *social media pulse* (many simultaneous observations / multiple sources): CA quake ( 2014-01-15, fontana/LA ) 
     
-- *network spread* (single- or few-source): bin Laden strike (before traditional media), syrian dissidents *(newer example* 
-    
-- [ *hybrid* : AP hack ( 2013-04-24 ) ]
+## other models?
+
+- network spread
+
+- hybrid 
 
 
 
-## unexpected event models
-
-### social media pulse
-
-counting user activities in time: Poisson process (stochastic, positive integers) 
-
-time between pairs of observatations has an exponential probability distribution 
-
-gamma distribution from sum of all uncorrelated users (?)    
-
-parameters: t_0 (start of pulse), alpha (shape), beta (rate), 
-
-model building/fitting in Python (scipy)
-
-
-
-#### pulse characteristics  
-
-- time-to-peak
-
-- story half-life
-
-- total story activity volume
-
-
-### network spread 
-
-story breaks on twitter (single-source or few-sources), shared widely, growth rate increases quickly
-
-message reaches network saturation, stops being shared
-
-logisitic/sigmoid function
-
-
-
-# to do
-
-- graphic on slide #1 
+# assorted other things 
 
 - cross-social-platform comparison of models
 
 - (non-parametric) trend detection
-
-
 
