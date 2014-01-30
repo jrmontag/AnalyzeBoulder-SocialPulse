@@ -45,9 +45,11 @@
                 
 <section data-markdown>
 <script type="text/template">
-    # The Social Pulse
-    ## Modeling Events In Social Data
-    Josh Montague 
+    # Social Media Pulse
+    ### Modeling Events In Social Data
+
+    <br>
+    Josh Montague (Gnip) 
     
     [@jrmontag](http://www.twitter.com/jrmontag)
 
@@ -55,7 +57,7 @@
     (img of pulse)
 
 
-    <br>
+    <br> <br>
     [bit.ly/AB-Pulse](http://bit.ly/AB-Pulse)
     
 </script>
@@ -79,10 +81,11 @@
         <h4>Twitter, Tumblr, Foursquare, Facebook, Disqus, WordPress, IntenseDebate, GetGlue, StockTwits, Estimize, Newsgator, Bitly, del.icio.us, flickr, Google+, Instagram, Metacafe, Panoramio, Photobucket, Plurk, Reddit, StackOverflow, Vimeo, VK, YouTube, .... </h4> 
         <br> 
         <p class="fragment roll-in">
-        amazing medium for sharing, communicating, networking
+        sharing, communicating, networking
         </p>
+        <br>
         <p class="fragment roll-in">
-        + cheaper than a census, real-time, <em>many</em> participants 
+        + cheaper than a census, real-time, <em>many</em> participants... 
         </p>
     </section>
 
@@ -108,15 +111,29 @@
 
     <h1>Focus</h1> 
     social channels span full human space 
-
-    <br><br> 
+    <br>
     <p class="fragment fade-in"> 
-        <a class="image" href="http://photoblog.nbcnews.com/_news/2014/01/23/22413467-ukraine-riot-cops-pose-for-photo-amid-violent-clashes?lite" target="_blank"> <img width="400" height="250" src="images/NBC-ukraine.jpg" alt="Ukraine"></a>
-        <a class="image" href="http://socialitelife.com/photos/sofia-vergara-at-the-2013-golden-globe-awards" target="_blank"> <img width="400" height="250" src="images/SLL-GG.jpg" alt="Golden Globes"></a>
+    <a class="image" href="http://photoblog.nbcnews.com/_news/2014/01/23/22413467-ukraine-riot-cops-pose-for-photo-amid-violent-clashes?lite" target="_blank"><img width="450" height="300" src="images/NBC-ukraine.jpg" alt="Ukraine"></a> &nbsp;
+    <a class="image" href="http://socialitelife.com/photos/sofia-vergara-at-the-2013-golden-globe-awards" target="_blank"><img width="450" height="300" src="images/SLL-GG.jpg" alt="Golden Globes"></a>
+    
+    <br> 
+    
+    &nbsp; 
+    &nbsp; 
+    &nbsp; 
+    &nbsp; 
+    &nbsp; 
+    [<a href="http://photoblog.nbcnews.com/_news/2014/01/23/22413467-ukraine-riot-cops-pose-for-photo-amid-violent-clashes?lite">
+        <font size="5"> NBC.com </font> 
+    </a>] 
+    &nbsp; &nbsp; 
+    [<a href="http://socialitelife.com/photos/sofia-vergara-at-the-2013-golden-globe-awards">
+        <font size="5"> socialitelife.com</a> </font> 
+    </a>] 
     </p>
 
     <br> 
-    <p class="fragment roll-in"> identify and <em>isolate</em> an event </p>
+    <p class="fragment roll-in"> identify, analyze <em>isolated</em> events </p>
 
 </section>
 <section>
@@ -154,7 +171,7 @@ award show, storm, product announcement
 
 # Unexpected 
 
-earthquake, celebrity death 
+earthquake, celebrity death, mergers & acquisitions 
 
 </script>
 </section>
@@ -188,19 +205,79 @@ earthquake, celebrity death
 
 </section>
 <section> 
+    <section> 
+    <h1> Social Media Pulse </h1> 
 
-<h1> Social Media Pulse </h1> 
+    <br>
+    <h3>(I promise this is the only slide with equations)</h3>
+    <br> 
 
-<br> <br> 
+    <p>unexpected event at time \(t=0 \rightarrow p_1(t) = \lambda e^{-\lambda t} \)</p>
 
-<h6> img + fit </h6>
+    <br />
 
-counting # of events, exponential probability decay in time: _Poisson process_ 
+    <p class="fragment fade-in">\(N\) people \(\rightarrow \sum_{i=1}^{N} \text{Exp} \sim 
+        \frac{\beta^{\alpha}}{\Gamma(\alpha)} t^{\alpha - 1} e^{-\beta t}\)</p>
+    </section>
 
-$$ f(t) = \lambda \exp{-\lambda t} $$
+    <section>
 
-<br> <br> <br> <br> <br> <br> 
+    same img + fit + params
+    <br> <br> <br> <br> <br> <br> <br> <br> 
 
+    <h1>Unexpected</h1>
+
+
+    </section>
+
+</section>
+<section> 
+    <section>
+    <br />
+    <h2>Activity volume</h2> 
+    some other words and another example
+
+    <br> <br> <br> <br> <br> <br> <br> <br>
+    <h2>Half-life</h2> 
+    some other words and another example
+    </section>
+
+    <section> 
+    <br />
+    <h2>Time to peak</h2> 
+    some words and another example
+    
+    <br> <br> <br> <br> <br> <br> <br> <br>
+    <h2>Response time</h2> 
+    some words and an example
+    </section>
+</section>
+<section data-markdown>
+<script type="text/template">
+# What next? 
+
+
+<br>
+
+<p align="center"> build a gallery</p>
+
+<br>
+<p align="center"> try other models (network)</p> 
+
+<br>
+
+<p align="center"> compare parameters across social channels</p> 
+
+<br>
+
+<p align="center"> ?</p> 
+
+<br>
+[@jrmontag](https://twitter.com/jrmontag)
+
+[bit.ly/AB-Pulse](http://bit.ly/AB-Pulse)
+
+</script>
 </section>
 
 
