@@ -1,9 +1,11 @@
 # TODO 
 
-- outline
+- ~~outline~~
 
-- plot & fit new examples (expected, unexpected pulse & network spread)
+- ~~plot & fit new examples (expected, unexpected pulse & network spread)~~
 
-- model
+- ~~model~~
 
-- slides
+- ~~slides~~
+
+- update with new data

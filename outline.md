@@ -52,12 +52,13 @@
 
 ## event parameters 
 
-- story half-life (+example?)
+- half-life ~ 18:40 UTC
 
-- total story volume
+- time to peak ~ 5 min
 
-- time to peak
+- story activity volume ~ ? 
 
+- response time ~ ?
     
 ## other models?
 
