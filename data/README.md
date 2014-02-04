@@ -5,7 +5,7 @@
 `search_api.py -p XXX -f"janus" -s"2014-01-19T12:00" -e"2014-01-24T00:00" timeline -c -b"minute"`
 
 
-### Google purchases Nest ([link](http://techcrunch.com/2014/01/13/google-just-bought-connected-device-company-nest-for-3-2b-in-cash/#))
+### Google purchases Nest ([ref](http://techcrunch.com/2014/01/13/google-just-bought-connected-device-company-nest-for-3-2b-in-cash/#))
 
 `search_api.py -p XXX -f"google nest" -s"2014-01-13T00:00" -e"2014-01-16T12:00" timeline -c -b"minute"`
 
