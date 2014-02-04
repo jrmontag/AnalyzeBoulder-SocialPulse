@@ -1,1 +1,6 @@
 *.pyc
+*.zip
+*.tar
+.ipynb_checkpoints
+deleteme
+.DS_Store
