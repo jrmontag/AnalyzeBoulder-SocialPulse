@@ -12,13 +12,13 @@
 
 ---
 
-# outline *(WIP)*
+# outline 
 
 - context (for social data)
 
-    - ~a decade into the [social data revolution](http://blogs.hbr.org/2009/05/the-social-data-revolution/) = mucho data
+    - ~a decade into the [social data revolution](http://blogs.hbr.org/2009/05/the-social-data-revolution/) 
 
-    - new channel for making measurements of social and humanitarian issues (unemployment, illness, politics), cheaper and more real-time than e.g. government census 
+    - channel for making measurements of social and humanitarian issues (unemployment, illness, politics), cheaper and more real-time than e.g. government census 
 
     - how much data? (+ grapherator twitter data) -- everything from the Golden Globe awards show to the current Ukrainian riots is in that data 
 
@@ -34,20 +34,22 @@
 
     - expected: winter storm (Janus: ~2014-01-21) 
 
-    - unexpected: news story (google + nest ~ 2014-01-13?) 
+    - unexpected: news story? (google + nest ~ 2014-01-13?), disaster? 
 
 - lines through each 
 
+
 ## *social media pulse* 
 
-- (only slide with formulas!)
+- a little taste of the model (formulas)
 
 - poisson counting process where probability of an observer posting/sharing is exponentially decaying in time (+formula) 
+
 - many observers ==> sum of independent random variables is the convolution of these ==> gamma
 
-- example + parameters 
-
 - example with data 
+
+- example + parameters 
 
 
 ## event parameters 
@@ -60,17 +62,11 @@
 
 - response time ~ ?
     
-## other models?
+## what's next 
 
-- network spread
+- models (network spread, hybrid, ...)
 
-- hybrid 
+- cross-platform
 
-
-
-# assorted other things 
-
-- cross-social-platform comparison of models
-
-- (non-parametric) trend detection
+- what else?
 

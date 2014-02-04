@@ -8,4 +8,6 @@
 
 - ~~slides~~
 
-- update with new data
+- ~~update expected event with new data~~ 
+
+- update unexpected event with new data 
