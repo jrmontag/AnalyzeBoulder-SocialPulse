@@ -6,3 +6,5 @@ data collected from Gnip's [Search API](http://support.gnip.com/apis/search_api.
 
 `search_api.py -p XXX -f"janus" -s"2014-01-19T12:00" -e"2014-01-24T00:00" timeline -c -b"minute"`
 
+
+- recall the IPython notebook using this data can also be [viewed statically at nbviewer](http://nbviewer.ipython.org/github/jrmontag/AnalyzeBoulder-SocialPulse/blob/master/data/AB_social-pulse.ipynb).
