@@ -1,6 +1,6 @@
 # Social Media Pulse
 
-2014-02-04, Josh Montague ([@jrmontag](http://www.twitter.com/jrmontag) 
+2014-02-04, Josh Montague ([@jrmontag](http://www.twitter.com/jrmontag)) 
 
 [Presentation slides](http://jrmontag.github.io/AnalyzeBoulder-SocialPulse)+ for the 2014-02-05 [AnalyzeBoulder Meetup](http://www.meetup.com/Analyze-Boulder/events/156806792/). [ Shareable [bit.ly link](http://bit.ly/AB-Pulse) ]
 
